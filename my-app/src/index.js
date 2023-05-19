@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 import { BrowserRouter as Router} from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
@@ -10,6 +11,7 @@ root.render(
   <React.StrictMode>
     < Router>
     <Header/>
+    <Footer/>
     </Router>
   </React.StrictMode>
 );
